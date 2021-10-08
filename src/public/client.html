@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petición AJAX</title>
+  <link rel="stylesheet" href="../assets/css/client.css">
+</head>
+<body>
+  <h1>Peticion por AJAX - Axios</h1>
+
+  <form id="cliente"  action="" method="post">
+    id: <input type="text" id="id"> <br>
+    name: <input type="text" id="name"> <br>
+    email: <input type="email" id="email"> <br>
+    age: <input type="number" id="age"> <br>
+
+    <button type="submit">subir datos</button>
+  </form>
+
+  <hr>
+  
+  <table border="1" cellspacing="1">
+    <thead style="background-color: darkorange; color: white">
+      <tr>
+        <td>ID</td>
+        <td>NAME</td>
+        <td>EMAIL</td>
+        <td>AGE</td>
+      </tr>
+    </theadv>
+    <tbody id="contentBody"></tbody>
+  </table>
+  
+  
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="../assets/js/client.js"></script>
+</body>
+</html>
